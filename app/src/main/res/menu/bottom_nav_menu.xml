@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_menu"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_trangcChu"/>
+    <item
+        android:id="@+id/navigation_sanpham"
+        android:icon="@drawable/ic_sanpham"
+        android:title="@string/title_sanPham"/>
+    <item
+        android:id="@+id/navigation_gioHang"
+        android:icon="@drawable/ic_giohang"
+        android:title="@string/title_gioHang"/>
+
+</menu>

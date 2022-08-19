@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DoAnCoffe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_trangcChu">Trang Chủ</string>
+    <string name="title_sanPham">Sản Phẩm</string>
+    <string name="title_gioHang">Giỏ Hàng</string>
+</resources>
