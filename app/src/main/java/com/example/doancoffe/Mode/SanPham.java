@@ -1,6 +1,8 @@
 package com.example.doancoffe.Mode;
 
-public class SanPham {
+import java.io.Serializable;
+
+public class SanPham implements Serializable {
     public int Masp;
     public String HinhSp;
     public String TenSP;
