@@ -60,19 +60,12 @@ public class Database extends SQLiteOpenHelper {
                 "Mít Sấy',20000,'Mít sấy khô vàng ươm, giòn rụm, giữ nguyên được vị ngọt lịm của mít tươi.') ";
         db.execSQL(splSanPham);
 
-        String splGioHang="CREATE TABLE GioHang("+
-                "Magh INTEGER PRIMARY KEY AUTOINCREMENT,"+
-                "Soluong INTEGER,"+
-                "TongTien INTEGER,"+
-                "Masp INTEGER REFERENCES SanPham(Masp))";
-        db.execSQL(splGioHang);
-
     }
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int i, int i1) {
         db.execSQL("drop table if exists SanPham");
-        db.execSQL("drop table if exists GioHang");
+
 
 
     }

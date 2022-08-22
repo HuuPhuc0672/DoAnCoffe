@@ -6,7 +6,6 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
 import com.example.doancoffe.Fragment.SanPhamFragment;
-import com.example.doancoffe.Fragment.GioHangFragment;
 import com.example.doancoffe.Fragment.HomeFragment;
 
 public class Adapter_Layout extends FragmentStateAdapter {
@@ -22,8 +21,6 @@ public class Adapter_Layout extends FragmentStateAdapter {
                 return  new HomeFragment();
             case 1:
                 return  new SanPhamFragment();
-            case 2:
-                return  new GioHangFragment();
             default:
                 return  new HomeFragment();
 
@@ -32,6 +29,6 @@ public class Adapter_Layout extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 3;
+        return 2;
     }
 }

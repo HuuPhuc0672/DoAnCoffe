@@ -35,9 +35,6 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         bottomNavigationView.getMenu().findItem(R.id.navigation_sanpham).setChecked(true);
                         break;
-                    case 2:
-                        bottomNavigationView.getMenu().findItem(R.id.navigation_gioHang).setChecked(true);
-                        break;
                 }
             }
         });
@@ -52,10 +49,6 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.navigation_sanpham:
                         viewPager2.setCurrentItem(1);
                         break;
-                    case R.id.navigation_gioHang:
-                        viewPager2.setCurrentItem(2);
-                        break;
-
                 }
                 return true;
             }
